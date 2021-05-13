@@ -1,0 +1,7 @@
+{
+  "name": "meridiem",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
