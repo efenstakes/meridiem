@@ -1,0 +1,24 @@
+
+
+.about_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // padding: 20px 16px;
+
+    // @media screen and (min-width: 600px) {
+    //     padding: 32px 32px;
+    // }
+    // @media screen and (min-width: 800px) {
+    //     padding: 32px 32px;
+    // }
+}
+.about_us__title {
+    font-weight: 600;
+}
+.about_us__text {
+    max-width: 800px;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+
+
+.worked_with {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: lightgrey;
+
+    padding: 40px 0;
+    
+    @media screen and (min-width: 600px) {
+        padding: 80px 0;
+    }
+}
+
+.worked_with__image {
+    width: 80%;
+    height: 80px;
+    margin-bottom: 32px;
+    filter: grayscale(4);
+    // background-color: green;
+
+    transition: 300ms;
+
+    @media screen and (min-width: 600px) {
+        width: 33%;
+        height: 80px;
+        margin-bottom: 0px;
+    }
+}
+.worked_with__image:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
